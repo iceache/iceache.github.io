@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.hero-bg {
+  background: #307d99 url("../img/citrus.jpg");
+  color: whitesmoke;
+  text-align: center;
+  padding: 4em;
+}
+
+header {
+  padding: 1em 0;
+}
+
+.hero-bg a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 0 1em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 2em 0 1.2em 0;
+}
+
+h1 span {
+  text-transform: uppercase;
+  font-size: 2rem;
+  display: block;
+  font-weight: bolder;
+  position: relative;
+  z-index: 1;
+}
+
+h1 span::before {
+  content: "";
+  position: absolute;
+  width: 4em;
+  background: #008cff;
+  height: 0.4em;
+  bottom: 0;
+  z-index: -1;
+  margin-left: -0.3em;
+}
+
+.hero-bg p {
+  font-weight: bold;
+  margin: 0 1em 3em;
+}
+
+.form-container {
+  background-color: white;
+  margin: 2em -1em 0;
+  padding: 2em;
+}
