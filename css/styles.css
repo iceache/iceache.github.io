@@ -7,3 +7,14 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
 }
+
+.hello {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4.2rem;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+}
